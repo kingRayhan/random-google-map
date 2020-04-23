@@ -27,8 +27,7 @@ export class AppMap {
 			position: {
 				lat: mapbale.location.lat,
 				lng: mapbale.location.lng
-			},
-			icon: 'https://img.icons8.com/windows/32/e74c3c/furniture-store.png'
+			}
 		})
 
 		let infoWindow = new google.maps.InfoWindow({
